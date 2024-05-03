@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pyshowcase"
+version = "0.1.0"
+description = "A package to showcase python packages hosted within a pypi like repository. Think pypi.org but for your own private repos."
+authors = ["James Thurgood <jamesthurgood34@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.0.4"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+requests-cache = "^1.2.0"
+pkginfo = "^1.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
